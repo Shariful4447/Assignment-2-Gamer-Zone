@@ -1,0 +1,48 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.logo>p{
+    font-size: 45px;
+    margin-left: 10px;
+    
+}
+.logo>img{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.nav-bar-item{
+    margin: 20px;
+    margin-right: 30px;
+    padding: 10px;
+
+}
+.nav-bar-item>a{
+    padding: 30px;
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+}
+.youtube{
+
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
