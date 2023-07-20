@@ -45,4 +45,162 @@
     border-radius: 2px;
     background: rgba(11, 2, 35, 0.10);
 
+
 }
+.header{
+    width: 100%;
+    
+    display: flex;
+    
+}
+.header-image{
+    
+    margin-right: 120px;
+    padding: 30px;
+}
+.header-main{
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    margin: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    
+    font-family: Work Sans;
+    padding: 10px;
+    width: 400px;
+    height: 700px;
+    flex-shrink: 0;
+ 
+    
+
+
+}
+.header-main>p{
+    color: #0B0223;
+    font-size: 48px;
+
+    
+}
+.btn-primary{
+    color: white;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #b1187e;
+    border-radius: 10px;
+}
+
+.gamer{
+    width: 100%;
+    display: flex; 
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
+}
+.gamerImage{
+ height: 489px;
+ width: 868px;
+ flex-shrink: 0;
+ margin-right: 100px;
+}
+.gamerContent{
+    text-align: right;
+    font-family: work-sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 100px;
+}
+.gamerContent>h2{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.onlineG{
+    text-align: center;
+    align-items: center;
+    background-color: #FFF;
+    margin-top: 50px;
+}
+.onlineGamers{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #FFF;
+}
+.onlineGamers1{
+ margin-right: 10px;
+ height: 342px;
+ width: 400px;
+}
+.onlineGamers2{
+    margin-right: 10px;
+}
+.onlineGamers3{
+    margin-right: 10px;
+}
+.onlineGamers4{
+    margin-right: 10px;
+}
+.promotion{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.promotionImage{
+margin-right: 120px;
+
+}
+
+.promotionmain{
+    height: 520px;
+    width: 500px;
+}
+.promotionsub{
+    border-radius: 8px;
+    height: 320px;
+    width: 270;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+.promotiontext{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    text-align: center;
+    margin: 50px;
+    padding: 100px;
+}
+.promotiontext>p{
+    font-size: 18px;
+}
+.career{
+    background-color: #b1187e;
+    display: flex;
+    color: #FFF;
+   
+    height: 600px;
+    align-items: center;
+    
+
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 200px;
+    
+}
+.careerImage{
+    padding: 10px;
+}
+.careerGlobal{
+    display: flex;
+}
+    
+   
