@@ -295,6 +295,11 @@ margin-right: 120px;
     height: 80px;
     width: 200px;
 }
+.footer{
+    height: 600px;
+    background-color: #0B0223;
+    color: #FFF;
+}
 /* .feature{
     display: flex;
     border-radius: 10px;
